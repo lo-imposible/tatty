@@ -1,29 +1,28 @@
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #5d7599;
-    list-style-type: none;
+* {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    padding: 5px;
+    background-color: beige;
+}
+
+.nav {
+    margin: auto;
+    width: 100%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
 }
 
 .nav li {
     display: inline-block;
-    border-right: 2px solid black;
-    background-color: #abb6c8;
+    padding: 5px;
 }
 
 .nav li a {
-    display: inline-block;
-    text-align: center;
     text-decoration: none;
-    padding: 10px;
-    color: #5d7599;
+    color: grey;
 }
 
-.nav li:hover {
-    background-color: grey;
+.nav li a:hover {
+    transition: ease-in-out 0.3s;
+    font-style: italic;
 }
